@@ -6,6 +6,7 @@
 		
 		*{
 			font-family: arial;
+			background-color: #d4f2ff;
 		}
 		#FileName{
 			padding: 10px; width: 450px; border-radius: 3px; border: 1px solid #ddd;
@@ -15,10 +16,7 @@
 </head>
 <body>
 
-<div>
-	
 	<center><h2>Php File Upload</h2></center>
- 
 	<form action="" method="POST" style="width: 585px; margin: auto;" enctype="multipart/form-data">
 			
 		<input type="file" name="File" id="FileName" />
@@ -26,10 +24,7 @@
 
 	</form>
 
-</div>
-
 <?php
-	
 	
 	if(isset($_POST['FileUpload'])){
 
